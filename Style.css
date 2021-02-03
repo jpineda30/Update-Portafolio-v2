@@ -1,0 +1,291 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap");
+
+@keyframes anim-glow {
+	0% {
+		box-shadow: 0 0 0 0 transparent;
+	}
+	100% {
+		box-shadow:0px 0px 20px 5px white;
+		
+    }
+}
+
+#main{
+    background-color: black;
+    background-image: url("img/runnerdesign_2020-/runnerdesign_2020 (3).jpg");
+    object-fit: fill;
+}
+
+#menu{
+    background-color: black;
+    object-fit: fill;
+    width: 100px;
+    height: 120vh;
+    transition: .5s ease;
+    
+}
+
+#menu:hover{
+    
+    width: 300px;
+}
+    
+
+
+
+.overlay {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    overflow: hidden;
+   
+    height: 0;
+
+    transition: .5s linear;
+    
+   
+  }
+
+  .nav:hover .overlay {
+    
+    
+    height: 50px;
+    padding: 3px;
+    margin-left: 3px;
+    
+  }
+
+
+.icon	{
+	
+	
+	width: 1px;
+	height: 1px;
+	text-align: center;
+	position: relative;
+	animation: anim-glow 2s ease infinite;
+		
+	
+}
+
+#hamburger{
+    height: 20px;
+}
+
+.nav{
+    background-color: rgb(1, 42, 58);
+}
+
+html{
+    background-color: rgb(10, 29, 37);
+    overflow: hidden;
+   
+}
+
+.mainImg{
+    width: 300px;
+}
+
+body{
+    height: 100vh;
+}
+
+#body{
+   
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+#aboutBox{
+    
+    opacity: 0.1;
+    filter: blur(2px);
+    
+    background-color: grey;
+    position: absolute;
+   
+   
+    
+}
+
+#aboutContent{
+    
+    
+    
+   
+    position: absolute;
+   
+    
+}
+
+.aboutMe{
+
+    height: 50vh;
+    width: 80vw;
+  }
+
+.totesCenter{
+    width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+
+
+.fill
+{width: 100%;}
+
+@media only screen and (max-width: 800px) {
+    #mainImg {
+      display: none;
+    }
+
+    .menu{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #body{
+        height: 90vh;
+        overflow: auto;
+        padding-top: 8px;
+        margin-top: 6px;
+       
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    #mainImg {
+      display: none;
+    }
+
+    .menu{
+        margin-left: 1px;
+        margin-right: 1px;
+        
+    }
+    #body{
+        
+        
+        
+        
+       
+    }
+    #bar
+    {margin: 0%;}
+  }
+
+  .buttonc{
+    /*border-radius: 50%;*/
+    background-color: #050505; /* Green */
+    border: none;
+    color: rgb(118, 14, 136);
+    opacity: 0.5;
+ }
+
+ .columns.is-vcentered {
+    -webkit-box-align: center;
+       -ms-flex-align: center;
+          align-items: center;
+  }
+
+  .buttonOut{
+    border-radius: 50%;
+    background-color: #1d1717; 
+    border: none;
+    color: rgb(0, 0, 0);
+    height: 54px;
+    width: 54px;
+ 
+ }
+
+ 
+ .labelc{
+    
+    background-color: #1d1717; 
+    border: none;
+    color: rgb(143, 143, 143);
+    height: 54px;
+    width: 54px;
+ 
+ }
+
+ .buttonOut:hover{
+    transition: .3s linear; 
+    border-radius: 60%;
+    background-color: #380641; 
+    border: none;
+    color: rgb(136, 132, 132);
+    height: 54px;
+    width: 54px;
+    animation: anim-glow 2s ease infinite;
+    
+ }
+
+
+ .label{
+
+    
+    visibility: hidden;
+    color: white;
+    transition: .5;
+   
+     
+ }
+
+ #menu:hover  .label{
+
+    visibility: visible;
+    
+    width: 200px;
+    
+
+     
+ }
+
+ #bio{
+     transition: .5s;
+ }
+
+ .cardSpace{
+     height: 300px;
+     width: 300px;
+     margin-bottom: 10px;
+     padding: 15px;
+
+ }
+
+ 
+ .card-header{
+    background-color: blue;
+
+}
+
+.card-content{
+
+    background-color: rgb(255, 255, 255, .1);
+    
+}
+
+.card-text{
+    color: white;
+}
+
+.centerPrortafolio{
+    width: 90vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+.card-img-top{
+    max-height: 200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
