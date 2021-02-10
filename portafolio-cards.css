@@ -119,6 +119,8 @@ htm
     background-color: black;
     margin-top: 15px;
     margin-left: 25px;
+
+    object-fit: cover;
 }
 
 
