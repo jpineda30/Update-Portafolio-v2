@@ -1,21 +1,25 @@
-#body::-webkit-scrollbar {
+#content::-webkit-scrollbar {
     width: 10px;
   }
+
+  
+
+
   
   /* Track */
-  #body::-webkit-scrollbar-track {
+  #content::-webkit-scrollbar-track {
     background: #000000; 
   }
    
   /* Handle */
-  #body::-webkit-scrollbar-thumb {
-    background:  rgb(5, 1, 58);
+  #content::-webkit-scrollbar-thumb {
+    background-color:rgba(4, 18, 37, 0.6);
   
   }
   
   /* Handle on hover */
-  #body::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+  #content::-webkit-scrollbar-thumb:hover {
+    background: rgb(42, 44, 47);
   }
 
   html{

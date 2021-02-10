@@ -67,6 +67,7 @@ htm
     height: 50px;
     width: 125px;
     margin: 0%;
+    border-top: 1px solid;
     border-bottom-left-radius: 10px;
     border-right: 1px solid;
     border-color:rgba(107, 109, 112, 0.2);
@@ -80,8 +81,9 @@ htm
     height: 50px;
     width: 125px;
     margin: 0%;
+    border-top: 1px solid;
     border-bottom-right-radius: 10px;
-    
+    border-color:rgba(107, 109, 112, 0.2);
     transition: .2s;
     
  
