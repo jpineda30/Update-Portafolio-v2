@@ -11,87 +11,40 @@
     }
 }
 
-#main{
-    background-color: black;
-    background-image: url("img/runnerdesign_2020-/runnerdesign_2020 (3).jpg");
-    object-fit: fill;
-}
+htm
 
 #menu{
     background-color: black;
-    object-fit: fill;
-    width: 100px;
-    height: 120vh;
+    
+    max-width: 70px;
+   
     transition: .5s ease;
     
 }
 
-#menu:hover{
-    
-    width: 300px;
-}
-    
-
-
-
-.overlay {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-   
-    overflow: hidden;
-   
-    height: 0;
-
-    transition: .5s linear;
-    
-   
-  }
-
-  .nav:hover .overlay {
-    
-    
-    height: 50px;
-    padding: 3px;
-    margin-left: 3px;
-    
-  }
-
-
-.icon	{
-	
-	
-	width: 1px;
-	height: 1px;
-	text-align: center;
-	position: relative;
-	animation: anim-glow 2s ease infinite;
-		
-	
+#content{
+    width: 100%;
+    overflow: auto;
 }
 
-#hamburger{
-    height: 20px;
+
+#btn-menu, #btn-portafolio, #btn-fb, #btn-li, #btn-ig, #btn-contact, #btn-gh{
+    
+    transition: .5s;
+ }
+
+#btn-menu:hover, #btn-portafolio:hover, #btn-fb:hover, #btn-li:hover, #btn-ig:hover, #btn-contact:hover, #btn-gh:hover{
+    
+   background-color: rgb(37, 37, 134);
+   border-radius: 50%;
 }
 
-.nav{
-    background-color: rgb(1, 42, 58);
-}
-
-html{
-    background-color: rgb(10, 29, 37);
-    overflow: hidden;
-   
-}
 
 .mainImg{
     width: 300px;
 }
 
-body{
-    height: 100vh;
-}
+
 
 #body{
    
@@ -100,55 +53,28 @@ body{
     scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
-#aboutBox{
-    
-    opacity: 0.1;
-    filter: blur(2px);
-    
-    background-color: grey;
-    position: absolute;
-   
-   
-    
-}
 
 #aboutContent{
     
-    
-    
-   
-    position: absolute;
-   
+    background-color: rgba(255, 255, 255, 0.1);
+
     
 }
 
-.aboutMe{
+.clear{
+    
+    background-color: rgba(255, 255, 255, 0.1);
 
-    height: 50vh;
-    width: 80vw;
-  }
+    
+}
 
-.totesCenter{
-    width: 60vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}  
-
-
-
-.fill
-{width: 100%;}
 
 @media only screen and (max-width: 800px) {
     #mainImg {
       display: none;
     }
 
-    .menu{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+  
     #body{
         height: 90vh;
         overflow: auto;
@@ -157,129 +83,54 @@ body{
        
     }
   }
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 600px) {
     #mainImg {
       display: none;
     }
 
-    .menu{
-        margin-left: 1px;
-        margin-right: 1px;
-        
-    }
-    #body{
-        
-        
-        
-        
-       
-    }
-    #bar
-    {margin: 0%;}
+    
+  
   }
 
-  .buttonc{
-    /*border-radius: 50%;*/
-    background-color: #050505; /* Green */
-    border: none;
-    color: rgb(118, 14, 136);
-    opacity: 0.5;
- }
-
- .columns.is-vcentered {
-    -webkit-box-align: center;
-       -ms-flex-align: center;
-          align-items: center;
-  }
-
-  .buttonOut{
-    border-radius: 50%;
-    background-color: #1d1717; 
-    border: none;
-    color: rgb(0, 0, 0);
-    height: 54px;
-    width: 54px;
- 
- }
-
- 
- .labelc{
-    
-    background-color: #1d1717; 
-    border: none;
-    color: rgb(143, 143, 143);
-    height: 54px;
-    width: 54px;
- 
- }
-
- .buttonOut:hover{
-    transition: .3s linear; 
-    border-radius: 60%;
-    background-color: #380641; 
-    border: none;
-    color: rgb(136, 132, 132);
-    height: 54px;
-    width: 54px;
-    animation: anim-glow 2s ease infinite;
-    
- }
 
 
- .label{
-
-    
-    visibility: hidden;
-    color: white;
-    transition: .5;
-   
-     
- }
-
- #menu:hover  .label{
-
-    visibility: visible;
-    
-    width: 200px;
-    
-
-     
- }
 
  #bio{
      transition: .5s;
  }
 
- .cardSpace{
-     height: 300px;
-     width: 300px;
-     margin-bottom: 10px;
-     padding: 15px;
-
- }
-
  
- .card-header{
-    background-color: blue;
-
-}
-
-.card-content{
-
-    background-color: rgb(255, 255, 255, .1);
-    
-}
 
 .card-text{
     color: white;
+    padding: 5px;
+
 }
 
-.centerPrortafolio{
-    width: 90vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}  
+.button1{
+    background-color:rgba(5, 27, 56, 0.623);
+    height: 50px;
+    width: 125px;
+    margin: 0%;
+    border-bottom-left-radius: 10px;
+    border-right: 1px solid;
+    border-color:rgba(107, 109, 112, 0.2);
+    transition: .5s;
+    
+    
+ 
+}
+.button2{
+    background-color:rgba(5, 27, 56, 0.623);
+    height: 50px;
+    width: 125px;
+    margin: 0%;
+    border-bottom-right-radius: 10px;
+    
+    transition: .2s;
+    
+ 
+}
 
 .card-img-top{
     max-height: 200px;
@@ -288,4 +139,66 @@ body{
     margin-right: auto;
    
     
+}
+
+
+
+.resume{
+    height: 335px;
+    
+    background-color: rgb(255, 255, 255, .1);
+}
+
+
+
+.rounded-b{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.resumeButton{
+    background-color:rgba(255, 255, 255, 0.623);
+    height: 50px;
+    width: 250px;
+    margin: 0%;
+   
+    border-top: 1px solid;
+    border-color:rgba(107, 109, 112, 0.2);
+    transition: .3s;
+    
+    
+ 
+}
+.button2:hover, .button1:hover ,.resumeButton:hover{
+    background-color:rgb(24, 98, 189,.5);
+    
+    
+ 
+}
+
+
+.imgCard{
+    height: 200px;
+    width: 200px;
+    
+    background-color: black;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+
+.titleResume{
+    
+    height: 70px;
+    
+    padding: 5px;
+}
+
+.card-content{
+    
+    height: 300px;
+    width: 250px;
+    background-color: rgb(255, 255, 255, .1);
+    margin: 0%;
+
+    padding: 0%;
 }

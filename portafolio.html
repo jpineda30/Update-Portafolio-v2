@@ -7,238 +7,212 @@
     <link rel="stylesheet" href="img/reset200802.css">
     <link rel="stylesheet" href="bulma/css/bulma.css">
     <link rel="stylesheet" href="icons/fontawesome-free-5.15.1-web/css/all.css">
-    <link rel="stylesheet" href="Style.css" >
+    <link rel="stylesheet" href="portafolio-cards.css" >
     <link rel="stylesheet" href="Scroll.css"> 
+    <link rel="stylesheet" href="flex-menu.css"> 
     
        
 </head>
 
-<body>
+<body class="columns is-mobile" >
 
- 
-  <div class="columns">
+  <div id="menu-col" class="column is-narrow">
+    <div id="menu"  class=" p-0 m-0"> 
+      <figure class="p-1 pt-6">
+        <img id="menuImage" class="is-rounded" src="img/peps -small.jpg" alt="me">
+        
+      </figure>
 
-    <!--Menu-->
-    <div id="menu" class="columns is-flex -is-vcentered buttonc level p-3 is-narrow">
-      
-      <table class="column">
-        <tr>
-          <td id="home"><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fas fa-house-user fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">About me</td>
-        </tr>
+      <div id="buttons" class="flex-col flex-center">
         
-        <tr>
-          <td><div id="portafolio" class="level"> <a class="p-1"><i  class="fas fa-suitcase fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Portafolio</td>
-        </tr>
         
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fab fa-github fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Github</td>
+        
           
-        </tr>
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fab fa-linkedin fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Linkedin</td>
+            <div class="span"> <a href="index.html" ><i  class="fas fa-house-user fa-1x has-text-light column buttonOut" id="btn-menu"></i></a><span class="smooth">Home</span></div>
+                   
           
-        </tr>
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fab fa-instagram  fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Instagram</td>
-        </tr>
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fab fa-facebook fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Facebook</td>
-        </tr>
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="far fa-address-book fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Contact</td>
-        </tr>
-        
+          
+            <div class="span" id="portafolio"> <a href="" ><i  class="fas fa-suitcase fa-1x has-text-light column buttonOut" id="btn-portafolio"></i></a><span class="smooth">Portafolio</span></div>
+            
+          
+          
+          
+            <div class="span"> <a href="https://github.com/jpineda30" ><i  class="fab fa-github fa-1x has-text-light column buttonOut" id="btn-gh"></i></a><span class="smooth">Github</span></div>
+                   
+          
+          
+            <div class="span"> <a href="www.linkedin.com/in/jose-pineda-esquer-3943b274/" ><i  class="fab fa-linkedin fa-1x has-text-light column buttonOut" id="btn-li"></i></a><span class="smooth">Linkedin</span></div>
+                     
+          
+          
+            <div class="span"> <a href="www.instagram.com/pepo_pics/" ><i  class="fab fa-instagram  fa-1x has-text-light column buttonOut" id="btn-ig"></i></a><span class="smooth">Instagram</span></div>
+                    
+          
+            <div class="span"> <a href="https://www.facebook.com/jose.pineda.9862" ><i  class="fab fa-facebook fa-1x has-text-light column buttonOut" id="btn-fb"></i></a><span class="smooth">Facebook</span></div>
+                   
+          
+            <div class="span"> <a href="./contact.html" ><i  class="far fa-address-book fa-1x has-text-light column buttonOut" id="btn-contact"></i></a><span class="smooth">Contact</span></div>
+                  
+          
 
        
-      </table>
+  
+         
+        
+  
+      </div>
+  
      
-
-       
-      
-
     </div>
+  </div>
+ 
 
 
     <!--content-->
-    <div id="body" class="column p-3 m-3">
-      <div class="columns">
-        <div class="column">
-          <div id="about me" class="">
-            
-            <header class="level level-left columns" >
-              <div id="mainImg" class="column is-mobile is-narrow">
-          
-                <figure class="image is-128x128 p-1">
-                  <img id="headerImage" class="is-rounded" src="img/peps -small.jpg" alt="me">
-                </figure>
-          
-              
-               </div>
-  
-               <div class="column is-mobile">
-                <div id="titles">
-                  <h1 class="has-text-light is-size-3">Jose Pineda Esquer</h1>
-                  <h2 class="has-text-light is-size-4">Sap Business bydesign consultant-developer | Full Stack developer</h2>
-                </div>
-                
-              </div>
-            </header>
+    <div id="content" class="column p-3 m-3 my-6 flex-col">
 
-
-            <div id="portafolio" class="centerPrortafolio scroll columns level is-multiline">
-             
-              <!--model card 1-->
-              <div class="proyect cardSpace column">
-                <div class="card-content cardSpace">
-                  <img src="img/deantAPPointment_2.gif" class="card-img-top" alt="Burger-logger">
-                  <div class="card-body">
-                  <p class="card-text">DentApp - Appointment scheduler</p>
-                  <div><a href="https://github.com/jpineda30/Project-2.git" class="btn btn-primary">Repository Link</a></div>
-                     <a href="https://protected-sands-23388.herokuapp.com/" class="btn btn-primary">Deployed app</a>
-                  </div>
-                </div>
-                
-                <div class="proyect-back cardSpace"></div>
-                
-              </div>
-
-              <!--model card 1-->
-              <div class="proyect cardSpace column">
-                <div class="card-content cardSpace">
-                  <img src="img/covid.bmp" class="is-narrow card-img-top" alt="Burger-logger">
-                  <div class="card-body">
-                  <p class="card-text">CoviNews</p>
-                  <div><a class="is-full" href="https://github.com/venturecarbajal/project_one.git" class="btn btn-primary">Repository Link</a></div>
-                    <a href="https://jpineda30.github.io/project_one/" class="btn btn-primary">Deployed app</a>
-                    </div>
-                </div>
-                
-                <div class="proyect-back cardSpace"></div>
-                
-              </div>
-
-              <!---->
-
-              <!--model card 1-->
-              <div class="proyect cardSpace column">
-                <div class="card-content cardSpace">
-                  <img src="img/quiz.bmp" class="card-img-top" alt="Burger-logger">
-                  <div class="card-body">
-                  <p class="card-text">Code Quiz</p>
-                  <div><a href="https://github.com/jpineda30/Code-Quiz.git" class="btn btn-primary">Repository Link</a></div>
-                    <a href="https://jpineda30.github.io/Code-Quiz/" class="btn btn-primary">Deployed app</a>
-                    </div>
-                </div>
-                
-                <div class="proyect-back cardSpace"></div>
-                
-              </div>
-
-              <!--model card 1-->
-              <div class="proyect cardSpace column">
-                <div class="card-content cardSpace">
-                  <img src="img/burger.jpg" class="card-img-top" alt="Burger-logger">
-                  <div class="card-body">
-                  <p class="card-text">Burger Logger</p>
-                  <div><a href="https://github.com/jpineda30/burger.git" class="btn btn-primary">Repository Link</a></div>
-                     <a href="https://mysterious-woodland-74666.herokuapp.com/" class="btn btn-primary">Deployed app</a>
-                  </div>
-                </div>
-                
-                <div class="proyect-back cardSpace"></div>
-                
-              </div>
-
-              <!---->
-                <!--model card 1-->
-                <div class="proyect cardSpace column">
-                  <div class="card-content cardSpace">
-                    <img src="img/workday.bmp" class="card-img-top" alt="Burger-logger">
-                    <div class="card-body">
-                    <p class="card-text">Work Day Scheduler</p>
-                    <div><a href="https://github.com/jpineda30/Work-Day-Scheduler.git" class="btn btn-primary">Repository Link</a></div>
-                       <a href="https://jpineda30.github.io/Work-Day-Scheduler/" class="btn btn-primary">Deployed app</a>
-                    </div>
-                  </div>
-                  
-                  <div class="proyect-back cardSpace"></div>
-                  
-                </div>
-  
-                <!--model card 6-->
-                <div class="proyect cardSpace column">
-                  <div class="card-content cardSpace">
-                    <img src="img/weather.bmp" class="card-img-top" alt="Burger-logger">
-                    <div class="card-body">
-                    <p class="card-text">Weather Dashboard</p>
-                    <div><a href="https://github.com/jpineda30/Weather-Dashboard.git" class="btn btn-primary">Repository Link</a></div>
-                       <a href="https://jpineda30.github.io/Weather-Dashboard/" class="btn btn-primary">Deployed app</a>
-                    </div>
-                  </div>
-                  
-                  <div class="proyect-back cardSpace"></div>
-                  
-                </div>
-  
-                <!---->
-              
-                  <!--model card 1-->
-              <div class="proyect cardSpace column">
-                <div class="card-content cardSpace">
-                  <img src="img/burger.jpg" class="card-img-top" alt="Burger-logger">
-                  <div class="card-body">
-                  <p class="card-text">Burger Logger</p>
-                  <div><a href="https://github.com/jpineda30/burger.git" class="btn btn-primary">Repository Link</a></div>
-                     <a href="https://mysterious-woodland-74666.herokuapp.com/" class="btn btn-primary">Deployed app</a>
-                  </div>
-                </div>
-                
-                <div class="proyect-back cardSpace"></div>
-                
-              </div>
-
-              <!--model card 1-->
-              <div class="proyect cardSpace column">
-                <div class="card-content cardSpace">
-                  <img src="img/burger.jpg" class="card-img-top" alt="Burger-logger">
-                  <div class="card-body">
-                  <p class="card-text">Burger Logger</p>
-                  <div><a href="https://github.com/jpineda30/burger.git" class="btn btn-primary">Repository Link</a></div>
-                     <a href="https://mysterious-woodland-74666.herokuapp.com/" class="btn btn-primary">Deployed app</a>
-                  </div>
-                </div>
-                
-                <div class="proyect-back cardSpace"></div>
-                
-              </div>
-
-              <!---->
-              
-           
-              
-
-
-
-            </div>
-
-
-
-          </div>
-        </div>
+      <div id="titles flex-col flex-center">
+        <h1 class="has-text-light has-text-centered is-size-5">Jose Pineda Esquer</h1>
+        <h2 class="has-text-light has-text-centered is-size-6">Sap Business bydesign consultant-developer | Full Stack developer</h2>
       </div>
+
+      <div id="proyects" class="flex-row flex-wrap flex-between flex-center m-3 p-3">
+
+        <!--card-1-->
+        <div class="card-content cardSpace is-narrow rounded-b flex-col flex-between my-4 mx-2">
+              
+                <!--body-->
+                <div class="bodyCard">
+                  <!--image-->
+                  <img class="imgCard" src="img/workday.bmp" alt="Day Planner">
+                  <!--title-->
+                  <h1 class="is-size-6 card-text has-text-centered">Title</h1>
+      
+                </div>
+                
+      
+                <!--buttons-->
+                  <div class="flex-row">
+                    <a href="https://github.com/jpineda30" class="button1 has-text-centered"><i  class="fab fa-github fa-2x has-text-light p-2"></i></a>
+                    <a href="https://github.com/jpineda40" class="button2 has-text-centered"><i  class="fas fa-play-circle fa-2x has-text-light p-2"></i></a>
+                    
+                  </div>
+              </div>
+
+         <!--card-1-->
+         <div class="card-content cardSpace is-narrow rounded-b flex-col flex-between my-4 mx-2">
+              
+                <!--body-->
+                <div class="bodyCard">
+                  <!--image-->
+                  <img class="imgCard" src="img/deantAPPointment_2.gif" alt="DentApp">
+                  <!--title-->
+                  <h1 class="is-size-6 card-text has-text-centered">DentApp Appointment Scheduler</h1>
+      
+                </div>
+                
+      
+                <!--buttons-->
+                  <div class="flex-row">
+                    <a href="https://github.com/jpineda30" class="button1 has-text-centered"><i  class="fab fa-github fa-2x has-text-light p-2"></i></a>
+                    <a href="https://github.com/jpineda40" class="button2 has-text-centered"><i  class="fas fa-play-circle fa-2x has-text-light p-2"></i></a>
+                    
+                  </div>
+              </div>
+
+         <!--card-1-->
+         <div class="card-content cardSpace is-narrow rounded-b flex-col flex-between my-4 mx-2">
+              
+                <!--body-->
+                <div class="bodyCard">
+                  <!--image-->
+                  <img class="imgCard" src="img/covid.bmp" alt="">
+                  <!--title-->
+                  <h1 class="is-size-6 card-text has-text-centered">Covid News</h1>
+      
+                </div>
+                
+      
+                <!--buttons-->
+                  <div class="flex-row">
+                    <a href="https://github.com/jpineda30" class="button1 has-text-centered"><i  class="fab fa-github fa-2x has-text-light p-2"></i></a>
+                    <a href="https://github.com/jpineda40" class="button2 has-text-centered"><i  class="fas fa-play-circle fa-2x has-text-light p-2"></i></a>
+                    
+                  </div>
+              </div>
+
+         <!--card-1-->
+         <div class="card-content cardSpace is-narrow rounded-b flex-col flex-between my-4 mx-2">
+              
+                <!--body-->
+                <div class="bodyCard">
+                  <!--image-->
+                  <img class="imgCard" src="img/burger.jpg" alt="">
+                  <!--title-->
+                  <h1 class="is-size-6 card-text has-text-centered">Burger Logger</h1>
+      
+                </div>
+                
+      
+                <!--buttons-->
+                  <div class="flex-row">
+                    <a href="https://github.com/jpineda30" class="button1 has-text-centered"><i  class="fab fa-github fa-2x has-text-light p-2"></i></a>
+                    <a href="https://github.com/jpineda40" class="button2 has-text-centered"><i  class="fas fa-play-circle fa-2x has-text-light p-2"></i></a>
+                    
+                  </div>
+              </div>
+
+         <!--card-1-->
+         <div class="card-content cardSpace is-narrow rounded-b flex-col flex-between my-4 mx-2">
+              
+                <!--body-->
+                <div class="bodyCard">
+                  <!--image-->
+                  <img class="imgCard" src="img/quiz.bmp" alt="quiz">
+                  <!--title-->
+                  <h1 class="is-size-6 card-text has-text-centered">Quiz</h1>
+      
+                </div>
+                
+      
+                <!--buttons-->
+                  <div class="flex-row">
+                    <a href="https://github.com/jpineda30" class="button1 has-text-centered"><i  class="fab fa-github fa-2x has-text-light p-2"></i></a>
+                    <a href="https://github.com/jpineda40" class="button2 has-text-centered"><i  class="fas fa-play-circle fa-2x has-text-light p-2"></i></a>
+                    
+                  </div>
+              </div>
+
+         <!--card-1-->
+         <div class="card-content cardSpace is-narrow rounded-b flex-col flex-between my-4 mx-2">
+              
+                <!--body-->
+                <div class="bodyCard">
+                  <!--image-->
+                  <img class="imgCard" src="img/weather.bmp" alt="weatherApp">
+                  <!--title-->
+                  <h1 class="is-size-6 card-text has-text-centered">Wheather App</h1>
+      
+                </div>
+                
+      
+                <!--buttons-->
+                  <div class="flex-row">
+                    <a href="https://github.com/jpineda30" class="button1 has-text-centered"><i  class="fab fa-github fa-2x has-text-light p-2"></i></a>
+                    <a href="https://github.com/jpineda40" class="button2 has-text-centered"><i  class="fas fa-play-circle fa-2x has-text-light p-2"></i></a>
+                    
+                  </div>
+              </div>
+
+
+      </div>
+
     </div>
 
 
   </div>
 
-  <script src="js/handler.js"></script>
+  
  
 </body>
 </html>

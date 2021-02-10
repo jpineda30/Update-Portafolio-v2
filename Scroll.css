@@ -9,11 +9,15 @@
    
   /* Handle */
   #body::-webkit-scrollbar-thumb {
-    background:  rgb(1, 42, 58);
+    background:  rgb(5, 1, 58);
   
   }
   
   /* Handle on hover */
   #body::-webkit-scrollbar-thumb:hover {
     background: #555; 
+  }
+
+  html{
+    overflow: hidden;
   }

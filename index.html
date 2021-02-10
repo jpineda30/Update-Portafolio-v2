@@ -9,112 +9,123 @@
     <link rel="stylesheet" href="icons/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="Style.css" >
     <link rel="stylesheet" href="Scroll.css"> 
+    <link rel="stylesheet" href="flex-menu.css"> 
     
        
 </head>
 
-<body >
+<body class="columns is-mobile" >
+  
+  <div id="menu-col" class="column is-narrow">
+    <div id="menu"  class=" p-0 m-0"> 
+      <figure class="p-1 pt-6">
+        <img id="menuImage" class="is-rounded" src="img/peps -small.jpg" alt="me">
+        
+      </figure>
 
- 
-  <div class="columns">
-
-    <!--Menu-->
-    <div id="menu" class="columns is-flex -is-vcentered buttonc level p-3 is-narrow">
+      <div id="buttons" class="flex-col flex-center">
+        
+        
+        
+          
+        <div class="span"> <a href="" ><i  class="fas fa-house-user fa-1x has-text-light column buttonOut" id="btn-menu"></i></a><span class="smooth">Home</span></div>
+               
       
-      <table class="column">
-        <tr>
-          <td id="home"><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fas fa-house-user fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">About me</td>
-        </tr>
+      
+        <div class="span" id="portafolio"> <a href="./portafolio.html" ><i  class="fas fa-suitcase fa-1x has-text-light column buttonOut" id="btn-portafolio"></i></a><span class="smooth">Portafolio</span></div>
         
-        <tr>
-          <td><div id="portafolio" class="level"> <a class="p-1"><i  class="fas fa-suitcase fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Portafolio</td>
-        </tr>
-        
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fab fa-github fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Github</td>
-          
-        </tr>
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fab fa-linkedin fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Linkedin</td>
-          
-        </tr>
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fab fa-instagram  fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Instagram</td>
-        </tr>
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="fab fa-facebook fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Facebook</td>
-        </tr>
-        <tr>
-          <td><div class="level"> <a href="https://github.com/jpineda30" class="p-1"><i  class="far fa-address-book fa-2x has-text-light column buttonOut"></i></a></div></td>
-          <td class="is-size-6 m-3 label p-2">Contact</td>
-        </tr>
-        
+      
+      
+      
+        <div class="span"> <a href="https://github.com/jpineda30" ><i  class="fab fa-github fa-1x has-text-light column buttonOut" id="btn-gh"></i></a><span class="smooth">Github</span></div>
+               
+      
+      
+        <div class="span"> <a href="www.linkedin.com/in/jose-pineda-esquer-3943b274/" ><i  class="fab fa-linkedin fa-1x has-text-light column buttonOut" id="btn-li"></i></a><span class="smooth">Linkedin</span></div>
+                 
+      
+      
+        <div class="span"> <a href="www.instagram.com/pepo_pics/" ><i  class="fab fa-instagram  fa-1x has-text-light column buttonOut" id="btn-ig"></i></a><span class="smooth">Instagram</span></div>
+                
+      
+        <div class="span"> <a href="https://www.facebook.com/jose.pineda.9862" ><i  class="fab fa-facebook fa-1x has-text-light column buttonOut" id="btn-fb"></i></a><span class="smooth">Facebook</span></div>
+               
+      
+        <div class="span"> <a href="./contact.html" ><i  class="far fa-address-book fa-1x has-text-light column buttonOut" id="btn-contact"></i></a><span class="smooth">Contact</span></div>
+              
+      
 
-       
-      </table>
+   
+
      
+    
 
-       
-      
-
+  </div>
+  
+     
     </div>
+  </div>
+ 
 
 
     <!--content-->
-    <div id="content" class="column p-3 m-3">
-      <div class="columns">
-        <div class="column">
-          <div id="about me" class="">
-            <div id="mainImg" class="columns is-centered is-mobile">
-          
-              <figure class="image is-128x128 p-1">
-                <img id="headerImage" class="is-rounded" src="img/peps -small.jpg" alt="me">
-              </figure>
+    <div id="content" class="column py-6">
+
+      <div id="mainTitle" class="flex-col flex-acenter clear mx-5">
+
+        <figure class="image is-128x128 p-1 is-narrow">
+          <img id="headerImage" class="is-rounded" src="img/peps -small.jpg" alt="me">
+        </figure>
+        <h1 class="has-text-centered has-text-light is-size-3">Jose Pineda Esquer</h1>
+        <h2 class="has-text-centered has-text-light is-size-4">Sap Business bydesign consultant-developer | Full Stack developer</h2>
+      
+      </div>
+
+      <div id="about" class="columns m-3">
+
+        <div id="aboutContent" class="has-text-grey-light p-4 m-3 column rounded-b" >
+          <p class="is-size-3">About me.</p>
+          <p class="has-text-justified py-1 has">My name is Jose Pineda Esquer, I’m a software engineer from Los Mochis Sinaloa now based in Mexico City. I'm a Sap Business Bydesign consultant and developer.</p>
+      
+          <p class="has-text-justified py-1">I have 8 years of experience implementing and managing Sap systems, I worked as a consultant for about four years with SAP ECC 6 in the purchasing(MM), sales(SD) and production(PP) modules. Now I been working as a consultant for Sap business by design implementing the whole suit, and I have 2 years of experience developing solutions and add-ons for Business ByDesign. </p>
+      
+          <p class="has-text-justified py-1"> Im looking forward to learn about web development so I can expand my knowledge in how to integrate web applications with other administrative systems like SAP solutions.</p>
         
-            
-             </div>
+        </div>
 
-             <div class="columns is-centered is-mobile">
-              <div id="titles" class="column">
-                <h1 class="has-text-centered has-text-light is-size-3">Jose Pineda Esquer</h1>
-                <h2 class="has-text-centered has-text-light is-size-4">Sap Business bydesign consultant-developer | Full Stack developer</h2>
-              </div>
-              
-            </div>
-
-
-            <div id="bio" class="totesCenter">
-              <div id="aboutBox" class="column is-three-fifths has-text-grey-light aboutMe" >
-                
-              </div>
-              <div id="aboutContent" class="column is-three-fifths has-text-grey-light aboutMe" >
-                <p class="is-size-3">About me.</p>
-                <p class="has-text-justified py-1 has">My name is Jose Pineda Esquer, I’m a software engineer from Los Mochis Sinaloa now based in Mexico City. I'm a Sap Business Bydesign consultant and developer.</p>
-            
-                <p class="has-text-justified py-1">I have 8 years of experience implementing and managing Sap systems, I worked as a consultant for about four years with SAP ECC 6 in the purchasing(MM), sales(SD) and production(PP) modules. Now I been working as a consultant for Sap business by design implementing the whole suit, and I have 2 years of experience developing solutions and add-ons for Business ByDesign. </p>
-            
-                <p class="has-text-justified py-1"> Im looking forward to learn about web development so I can expand my knowledge in how to integrate web applications with other administrative systems like SAP solutions.</p>
-              
-              </div>
-            </div>
-
-
-
+        <div class="is-narrow column flex-center">
+        
+          <!--body-->
+          <div class="resume rounded-b flex-col flex-between m-0">
+            <!--image-->
+            <img class="imgCard" src="" alt="">
+            <!--title-->
+            <h1 class="is-size-4 titleCard has-text-centered has-text-grey-light py-2 m-1">Resume</h1>
+            <a href="https://github.com/jpineda30" class=" has-text-centered rounded-b"><i  class=" resumeButton fab fa-github fa-2x has-text-light p-2 rounded-b"></i></a> 
           </div>
+
+          <!--buttons-->
+
+          
+         
+             
+              
+              
+          
         </div>
       </div>
+
+
     </div>
 
 
-  </div>
+ 
 
-  <script src="js/handler.js"></script>
+  
  
 </body>
+
+
+
+
 </html>

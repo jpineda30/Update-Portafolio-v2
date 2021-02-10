@@ -1,0 +1,192 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap");
+
+
+#menu{
+    background-color: rgba(42, 44, 47, 0.9);
+    
+    max-width: 50px;
+    
+    transition: .5s ease;
+    
+}
+
+
+#btn-menu, #btn-portafolio, #btn-fb, #btn-li, #btn-ig, #btn-contact, #btn-gh{
+    
+    transition: .5s;
+ }
+
+#btn-menu:hover, #btn-portafolio:hover, #btn-fb:hover, #btn-li:hover, #btn-ig:hover, #btn-contact:hover, #btn-gh:hover{
+    
+   background-color: rgb(37, 37, 134);
+   border-radius: 50%;
+}
+#btn-menu:hover .smooth{
+    
+    transition: .3s;
+    padding: 8px;
+    
+   width: 100px;
+    
+ }
+
+
+body{
+    height: 100vh;
+
+}
+html {    
+    /*
+    background: url('img/runnerdesign_2020-/runnerdesign_2020 (3).jpg') no-repeat center fixed;  
+     background-image: linear-gradient(to bottom right, rgb(231, 233, 235), rgb(27, 59, 31), rgb(139, 157, 179));  
+    
+     background-image: linear-gradient(to bottom right, rgb(13, 27, 42), rgb(27, 38, 59), rgba(65, 90, 119)); 
+    
+     background: url('img/runnerdesign_2020-/379692\ -\ copia.jpg') no-repeat center fixed;  
+     */
+    background-size: cover;
+  
+    background-image: linear-gradient(to bottom right, rgb(13, 27, 42), rgb(27, 38, 59), rgba(65, 90, 119));
+
+    background: url('img/runnerdesign_2020-/379692-2.jpg') no-repeat center fixed;  
+    
+    z-index: -1;
+ 
+    
+}
+
+.blurred{
+    position: absolute;
+    background: url('img/runnerdesign_2020-/1158893.jpg') no-repeat center fixed;
+    background-size: cover; 
+    
+    
+    
+    opacity: .9;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    #mainImg {
+      display: none;
+    }
+
+    .menu{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #body{
+        height: 90vh;
+        overflow: auto;
+        padding-top: 8px;
+        margin-top: 6px;
+       
+    }
+  }
+
+
+ .columns.is-vcentered {
+    -webkit-box-align: center;
+       -ms-flex-align: center;
+          align-items: center;
+  }
+
+  #menucol{
+      height: 100vh;
+      padding: 0%;
+      margin: 0%;
+  }
+  #menu{
+    height: 100vh;
+   
+}
+
+
+#menuImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border: 5px;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-center{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.flex-top{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.flex-end{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.flex-around{
+    justify-content:space-around;
+}
+
+.flex-between{
+    justify-content:space-between;
+}
+
+.flex-jcenter{
+    display: flex;
+    justify-content:center;
+  
+}
+.flex-acenter{
+    display: flex;
+    align-items:center;
+  
+}
+
+.span:hover  .smooth{
+    
+    visibility: visible;
+    width: 100px;
+    transition: .3s;
+   
+}
+.smooth{
+    padding: 8px;
+    visibility: hidden;
+    position: absolute;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5%;
+    text-align: center;
+    margin-left: 5px;
+}
+
+#buttons{
+    height: 80vh;
+}
