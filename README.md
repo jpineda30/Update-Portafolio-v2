@@ -8,4 +8,4 @@ It also contains links to my social network profiles and a form for contact.
 
 ## Portfolio Page URL
 
-[Updated Portafolio](https://jpineda30.github.io/Updated-Portfolio-Page/)
+[Updated Portafolio](https://jpineda30.github.io/Update-Portafolio-v2/)
